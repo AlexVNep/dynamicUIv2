@@ -13,16 +13,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@eslint/js": "^9.11.0",
     "css-loader": "^7.1.2",
-    "eslint": "^9.11.0",
-    "globals": "^15.9.0",
     "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.0",
-    "prettier": "^3.3.3",
     "style-loader": "^4.0.0",
     "webpack": "^5.94.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.0",
+    "eslint": "^9.11.0",
+    "eslint-plugin-react": "^7.36.1",
+    "globals": "^15.9.0",
+    "typescript-eslint": "^8.6.0"
   }
 }
