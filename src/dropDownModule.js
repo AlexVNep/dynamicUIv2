@@ -12,8 +12,6 @@ const dropDown = () => {
       dropdownMenuItems.setAttribute("hidden", "false");
     }
   });
-
-  return { dropdownBtn, dropdownMenuItems };
 };
 
 export default dropDown;
