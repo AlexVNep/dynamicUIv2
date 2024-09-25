@@ -17,16 +17,33 @@
         </ul>
       </button>
     </div>
-    <div id="container">
-      <h1>Our Doggos</h1>
-      <div id="carousel">
-        <img src="./jessie.jpg" alt="picture 0f a dog" />
-        <img src="./korra.jpeg" alt="picture 0f a dog" />
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 2</div>
+        <img src="./jessie.jpg" style="width: 100%" />
+        <div class="text">Caption Text</div>
       </div>
-      <div id="picture-frame">
-        <button id="scroll-left-btn">Left</button>
-        <button id="scroll-right-button">Right</button>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 2</div>
+        <img src="./korra.jpeg" style="width: 100%" />
+        <div class="text">Caption Two</div>
       </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev">&#10094;</a>
+      <a class="next">&#10095;</a>
+    </div>
+    <br />
+
+    <!-- The dots/circles -->
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
     </div>
   </body>
 </html>
